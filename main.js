@@ -48,3 +48,24 @@ function excite(string){
 
 // excite('yes');
 // excite('go');
+
+function sun(string){
+	if(string.toLowerCase().indexOf('sun') !== -1){
+		console.log(true);
+	}else {
+		console.log(false);
+	}
+}
+
+// sun('sundries');
+// sun('asunder');
+// sun('catapult');
+
+function tiny(num){
+	if(num > 0 && num < 1){
+		console.log(true);
+	}else {
+		console.log(false);
+	}
+}
+
