@@ -69,3 +69,17 @@ function tiny(num){
 	}
 }
 
+// tiny(0.3);
+// tiny(14);
+// tiny(-5);
+
+
+function getSeconds(time){
+	var timeArr = time.split(':');
+	console.log((parseInt(timeArr[0])*60) + parseInt(timeArr[1]));
+}
+
+// getSeconds('01:30');
+// getSeconds('10:25');
+
+
